@@ -27,7 +27,7 @@ Threadline is a product listing application for an innerwear store, built using 
 ## Project Structure
 
 ```text
-dependency/
+Threadline/
 ├── README.md
 ├── PROJECT_PLAN.md
 ├── backend/
