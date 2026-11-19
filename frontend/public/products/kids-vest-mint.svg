@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="kids vest mint">
+  <rect width="400" height="400" fill="#e9f6f0"/>
+  <circle cx="320" cy="78" r="120" fill="#dbf1e8" opacity=".55"/>
+  <ellipse cx="200" cy="362" rx="130" ry="12" fill="#d0dbd6" opacity=".5"/>
+  <g transform="translate(36 46) scale(0.82)">
+    <path d="M148 64C152 112 248 112 252 64L286 70C280 118 292 152 314 178V336H86V178C108 152 120 118 114 70Z" fill="#8fd4b6" stroke="#76ab93" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M150 66C156 102 244 102 250 66" stroke="#76ab93" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <path d="M120 190V328" stroke="#76ab93" stroke-width="2" opacity=".35"/><path d="M150 190V328" stroke="#76ab93" stroke-width="2" opacity=".35"/><path d="M180 190V328" stroke="#76ab93" stroke-width="2" opacity=".35"/><path d="M210 190V328" stroke="#76ab93" stroke-width="2" opacity=".35"/><path d="M240 190V328" stroke="#76ab93" stroke-width="2" opacity=".35"/><path d="M270 190V328" stroke="#76ab93" stroke-width="2" opacity=".35"/>
+  </g>
+</svg>

@@ -1,0 +1,124 @@
+.filters {
+  position: sticky;
+  top: calc(var(--header-h) + 20px);
+  align-self: start;
+}
+.filters__head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.filters__title { margin: 0; font-size: 1.15rem; }
+.filters__close, .filters__foot, .drawer-backdrop { display: none; }
+.filter-group { border: 0; margin: 0; padding: 16px 0; border-top: 1px solid var(--border); min-width: 0; }
+.filter-group__title {
+  padding: 0;
+  margin-bottom: 10px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.cat-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.cat-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.cat-option input { position: absolute; opacity: 0; pointer-events: none; }
+@media (hover: hover) { .cat-option:hover { background: var(--surface-hover); } }
+.cat-option.is-active { background: var(--accent-soft); color: var(--accent-ink); font-weight: 600; }
+.cat-option:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 1px; }
+.cat-option__name { flex: 1; }
+.cat-option__count {
+  min-width: 26px;
+  padding: 1px 8px;
+  border-radius: 99px;
+  font-size: 0.75rem;
+  text-align: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--muted);
+}
+
+.price-fields { display: grid; gap: 10px; }
+.price-fields__row { display: flex; align-items: end; gap: 8px; }
+.price-fields__dash { padding-bottom: 10px; color: var(--muted); }
+.field { flex: 1; min-width: 0; }
+.field__label { display: block; font-size: 0.75rem; color: var(--muted); margin-bottom: 4px; }
+.field__input-wrap {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid var(--border-strong);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--muted);
+}
+.field__input-wrap:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-ring); }
+.field__input-wrap input {
+  width: 100%;
+  min-width: 0;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  outline: none;
+  -moz-appearance: textfield;
+}
+.field__input-wrap input::-webkit-inner-spin-button,
+.field__input-wrap input::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+.field__input-wrap:has(input[aria-invalid]) { border-color: var(--danger); }
+.field__hint { margin: 0; font-size: 0.75rem; color: var(--muted); }
+.field__error { margin: 0; font-size: 0.8rem; color: var(--danger); }
+
+/* Mobile / tablet: slide-up drawer */
+@media (max-width: 899px) {
+  .filters {
+    position: fixed;
+    z-index: 60;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: auto;
+    max-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    background: var(--surface);
+    border-radius: 20px 20px 0 0;
+    box-shadow: var(--shadow-lg);
+    transform: translateY(105%);
+    visibility: hidden;
+    transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), visibility 0s linear 0.3s;
+  }
+  .filters.is-open { transform: none; visibility: visible; transition-delay: 0s; }
+  .filters__head { padding: 16px 16px 8px; margin: 0; }
+  .filters__head::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    width: 40px;
+    height: 4px;
+    margin-left: -20px;
+    border-radius: 99px;
+    background: var(--border-strong);
+  }
+  .filters__close { display: grid; }
+  .filters__body { overflow-y: auto; padding: 0 16px; overscroll-behavior: contain; }
+  .filters__foot { display: block; padding: 12px 16px calc(12px + env(safe-area-inset-bottom)); border-top: 1px solid var(--border); }
+  .drawer-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 55;
+    background: rgb(20 18 16 / 0.45);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+  }
+  .drawer-backdrop.is-open { opacity: 1; pointer-events: auto; }
+}

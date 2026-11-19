@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="socks ankle mixed">
+  <rect width="400" height="400" fill="#f4e0d9"/>
+  <circle cx="320" cy="78" r="120" fill="#edcdc2" opacity=".55"/>
+  <ellipse cx="200" cy="362" rx="130" ry="12" fill="#dac8c2" opacity=".5"/>
+  <g>
+      <g transform="translate(-78 -50)">
+        <path d="M150 150H226V214C226 236 244 244 270 248C310 254 312 312 268 312H160C130 312 126 284 138 262C146 246 150 232 150 214Z" fill="#7fbbe3"/>
+        <rect x="146" y="138" width="84" height="22" rx="6" fill="#6693b0"/>
+        <path d="M262 249C312 252 316 312 268 312H250C262 296 266 268 262 249Z" fill="#6693b0" opacity=".45"/>
+      </g>
+      <g transform="translate(42 -10)">
+        <path d="M150 150H226V214C226 236 244 244 270 248C310 254 312 312 268 312H160C130 312 126 284 138 262C146 246 150 232 150 214Z" fill="#93b291"/>
+        <rect x="146" y="138" width="84" height="22" rx="6" fill="#758c73"/>
+        <path d="M262 249C312 252 316 312 268 312H250C262 296 266 268 262 249Z" fill="#758c73" opacity=".45"/>
+      </g>
+      <g transform="translate(-18 40)">
+        <path d="M150 150H226V214C226 236 244 244 270 248C310 254 312 312 268 312H160C130 312 126 284 138 262C146 246 150 232 150 214Z" fill="#c6633f"/>
+        <rect x="146" y="138" width="84" height="22" rx="6" fill="#a15336"/>
+        <path d="M262 249C312 252 316 312 268 312H250C262 296 266 268 262 249Z" fill="#a15336" opacity=".45"/>
+      </g>
+  </g>
+</svg>

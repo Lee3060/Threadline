@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="socks crew charcoal">
+  <rect width="400" height="400" fill="#dadadb"/>
+  <circle cx="320" cy="78" r="120" fill="#c3c4c6" opacity=".55"/>
+  <ellipse cx="200" cy="362" rx="130" ry="12" fill="#c3c3c3" opacity=".5"/>
+  <g>
+      <g transform="translate(-50 10)" opacity="0.75">
+        <path d="M150 70H222V214C222 236 240 244 266 248C306 254 308 312 264 312H160C130 312 126 284 138 262C146 246 150 232 150 214Z" fill="#45484c"/>
+        <rect x="146" y="58" width="80" height="34" rx="6" fill="#3c3e40"/>
+        <path d="M152 70H220" stroke="#86888b" stroke-width="2" opacity=".5"/><path d="M152 78H220" stroke="#86888b" stroke-width="2" opacity=".5"/><path d="M152 86H220" stroke="#86888b" stroke-width="2" opacity=".5"/>
+        <path d="M258 249C308 252 312 312 264 312H246C258 296 262 268 258 249Z" fill="#3c3e40" opacity=".5"/>
+      </g>
+      <g transform="translate(40 20)" opacity="1">
+        <path d="M150 70H222V214C222 236 240 244 266 248C306 254 308 312 264 312H160C130 312 126 284 138 262C146 246 150 232 150 214Z" fill="#45484c"/>
+        <rect x="146" y="58" width="80" height="34" rx="6" fill="#3c3e40"/>
+        <path d="M152 70H220" stroke="#86888b" stroke-width="2" opacity=".5"/><path d="M152 78H220" stroke="#86888b" stroke-width="2" opacity=".5"/><path d="M152 86H220" stroke="#86888b" stroke-width="2" opacity=".5"/>
+        <path d="M258 249C308 252 312 312 264 312H246C258 296 262 268 258 249Z" fill="#3c3e40" opacity=".5"/>
+      </g>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="thermal leggings grey">
+  <rect width="400" height="400" fill="#ebecee"/>
+  <circle cx="320" cy="78" r="120" fill="#dfe1e3" opacity=".55"/>
+  <ellipse cx="200" cy="362" rx="130" ry="12" fill="#d2d3d4" opacity=".5"/>
+  <g>
+    <path d="M124 82H276L292 340H226L200 158L174 340H108Z" fill="#9ba1a8"/>
+    <rect x="120" y="60" width="160" height="28" rx="8" fill="#7f8388"/>
+    <path d="M110 326H172M228 326H290" stroke="#7f8388" stroke-width="10" opacity=".6"/>
+    <path d="M150 110L136 310M250 110L264 310" stroke="#bec2c6" stroke-width="2" opacity=".35"/>
+  </g>
+</svg>

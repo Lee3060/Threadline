@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="panty lilac">
+  <rect width="400" height="400" fill="#f0ecf6"/>
+  <circle cx="320" cy="78" r="120" fill="#e8e1f1" opacity=".55"/>
+  <ellipse cx="200" cy="362" rx="130" ry="12" fill="#d7d3db" opacity=".5"/>
+  <g>
+    <path d="M86 146H314V168C298 204 252 230 236 276H164C148 230 102 204 86 168Z" fill="#b6a2d4"/>
+    <path d="M86 146H314" stroke="#9484aa" stroke-width="10" stroke-linecap="round"/>
+    <path d="M100 170C130 196 152 222 166 262M300 170C270 196 248 222 234 262" stroke="#9484aa" stroke-width="3" fill="none" opacity=".45" stroke-linecap="round"/>
+    <path d="M190 160L200 168L210 160L210 176L200 168L190 176Z" fill="#d0c3e3"/>
+  </g>
+</svg>

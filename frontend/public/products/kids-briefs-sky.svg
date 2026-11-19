@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="kids briefs sky">
+  <rect width="400" height="400" fill="#e5f1f9"/>
+  <circle cx="320" cy="78" r="120" fill="#d6e9f6" opacity=".55"/>
+  <ellipse cx="200" cy="362" rx="130" ry="12" fill="#cdd7de" opacity=".5"/>
+  <g transform="translate(30 40) scale(0.85)">
+    <path d="M90 150H310V170C292 206 248 232 232 282H168C152 232 108 206 90 170Z" fill="#7fbbe3"/>
+    <rect x="86" y="128" width="228" height="28" rx="8" fill="#6997b6"/>
+    <path d="M100 176C126 200 150 222 164 262M300 176C274 200 250 222 236 262" stroke="#acd3ed" stroke-width="3" fill="none" opacity=".6" stroke-linecap="round"/>
+    <circle cx="150" cy="200" r="9" fill="#acd3ed" opacity=".8"/><circle cx="246" cy="196" r="7" fill="#acd3ed" opacity=".8"/><circle cx="200" cy="232" r="6" fill="#acd3ed" opacity=".8"/>
+  </g>
+</svg>

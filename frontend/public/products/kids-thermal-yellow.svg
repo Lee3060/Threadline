@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="kids thermal yellow">
+  <rect width="400" height="400" fill="#fcf3d9"/>
+  <circle cx="320" cy="78" r="120" fill="#faecc3" opacity=".55"/>
+  <ellipse cx="200" cy="362" rx="130" ry="12" fill="#e1d9c2" opacity=".5"/>
+  <g>
+    <g transform="translate(24 44) scale(.56)">
+    <path d="M142 66C166 90 234 90 258 66L330 98L372 278L330 292L290 164V334H110V164L70 292L28 278L70 98Z" fill="#f0c443" stroke="#c19e39" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M146 68C170 96 230 96 254 68" stroke="#c19e39" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M30 270L72 284M370 270L328 284M110 322H290" stroke="#c19e39" stroke-width="10" opacity=".6"/>
+    <path d="M140 130V310" stroke="#f5d985" stroke-width="2" opacity=".35"/><path d="M170 130V310" stroke="#f5d985" stroke-width="2" opacity=".35"/><path d="M200 130V310" stroke="#f5d985" stroke-width="2" opacity=".35"/><path d="M230 130V310" stroke="#f5d985" stroke-width="2" opacity=".35"/><path d="M260 130V310" stroke="#f5d985" stroke-width="2" opacity=".35"/></g>
+    <g transform="translate(168 112) scale(.6)">
+    <path d="M124 82H276L292 340H226L200 158L174 340H108Z" fill="#f0c443"/>
+    <rect x="120" y="60" width="160" height="28" rx="8" fill="#c19e39"/>
+    <path d="M110 326H172M228 326H290" stroke="#c19e39" stroke-width="10" opacity=".6"/>
+    <path d="M150 110L136 310M250 110L264 310" stroke="#f5d985" stroke-width="2" opacity=".35"/></g>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="boxer charcoal">
+  <rect width="400" height="400" fill="#dadadb"/>
+  <circle cx="320" cy="78" r="120" fill="#c3c4c6" opacity=".55"/>
+  <ellipse cx="200" cy="362" rx="130" ry="12" fill="#c3c3c3" opacity=".5"/>
+  <g>
+    <path d="M96 140H304L316 304H218L200 226L182 304H84Z" fill="#45484c"/>
+    <path d="M200 226C176 210 172 180 178 160" stroke="#3c3e40" stroke-width="3" fill="none" opacity=".55" stroke-linecap="round"/>
+    <rect x="92" y="116" width="216" height="32" rx="8" fill="#3c3e40"/>
+    <path d="M84 296H182M218 296H316" stroke="#3c3e40" stroke-width="5" opacity=".5"/>
+  </g>
+</svg>

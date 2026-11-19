@@ -1,0 +1,29 @@
+.stepper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  background: var(--surface);
+  height: 40px;
+  min-width: 112px;
+}
+.stepper--sm { height: 34px; min-width: 100px; }
+.stepper__btn {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 100%;
+  border-radius: 999px;
+  color: var(--ink);
+  transition: background 0.15s, color 0.15s;
+}
+.stepper__btn:hover:not(:disabled) { background: var(--accent-soft); color: var(--accent); }
+.stepper__btn:disabled { opacity: 0.35; cursor: not-allowed; }
+.stepper__value {
+  min-width: 28px;
+  text-align: center;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.stepper[aria-busy] .stepper__value { opacity: 0.5; }
